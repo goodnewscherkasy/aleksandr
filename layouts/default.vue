@@ -152,6 +152,11 @@ export default {
           icon: 'mdi-video',
           title: 'Вантажоперевезення',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-contacts',
+          title: 'Контакти',
+          to: '/contacts'
         }
       ],
       items2: [
@@ -164,7 +169,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Александр Пацьора'
+      title: 'Олександр Пацьора'
     }
   }
 }

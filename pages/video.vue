@@ -34,6 +34,7 @@
           <v-btn
             color="orange"
             text
+            to="/contacts"
           >
             КОНТАКТИ
           </v-btn>

@@ -16,7 +16,7 @@
               outlined
               color="yellow"
               nuxt
-              to="/inspire"
+              to="/about"
             >
               Про мене
             </v-btn>
@@ -25,7 +25,7 @@
               outlined
               color="yellow"
               nuxt
-              to="/inspire"
+              to="/contacts"
             >
               Контакти
             </v-btn>
