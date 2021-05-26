@@ -13,11 +13,11 @@
         </v-img>
 
         <v-card-subtitle class="pb-2">
-          Допоможемо зрізати та вивести фруктові дерева
+          Допоможемо зрізати та вивести фруктові дерева.
         </v-card-subtitle>
 
         <v-card-text class="text--primary">
-          <div>Це безкоштовно!</div>
+          <div>Це безкоштовно!!!</div>
         </v-card-text>
 
         <v-card-actions>
