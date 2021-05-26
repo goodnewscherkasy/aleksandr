@@ -75,7 +75,7 @@
     >
       <v-list>
         <v-list-item
-          v-for="(item, i) in items2"
+          v-for="(item, i) in items"
           :key="i"
           :to="item.to"
           router
@@ -101,30 +101,6 @@
         justify="space-around"
       >
         &copy; {{ new Date().getFullYear() }}
-        <a
-          style="text-decoration: none"
-          href="https://www.instagram.com/nask_official/"
-        >
-          <v-icon
-            aria-hidden="true">mdi-instagram</v-icon>
-        </a>
-        <a
-          style="text-decoration: none"
-          href="https://www.instagram.com/nask_official/"
-        >
-          <v-icon
-            aria-hidden="true">mdi-youtube</v-icon>
-        </a>
-        <a
-          style="text-decoration: none"
-          href="https://jmlabel.one/nask"
-        >
-          <img
-            style="height: 36px; color: white"
-            src="@/assets/LogoBlk.png"
-            alt=""
-          >
-        </a>
       </v-row>
     </v-footer>
   </v-app>
@@ -144,12 +120,17 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-bookmark-music',
-          title: 'Тріска для копчення',
-          to: '/video'
+          icon: 'mdi-axe',
+          title: 'Вирубка фруктових дерев',
+          to: '/trees'
         },
         {
-          icon: 'mdi-video',
+          icon: 'mdi-tree',
+          title: 'Тріска для копчення',
+          to: '/chip'
+        },
+        {
+          icon: 'mdi-van-utility',
           title: 'Вантажоперевезення',
           to: '/inspire'
         },

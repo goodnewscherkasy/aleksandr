@@ -39,7 +39,7 @@
     <v-row justify="space-around">
       <v-col
         v-for="elevation in elevations"
-        :key="elevation"
+        :key="elevation.title"
         cols="12"
         md="4"
       >
@@ -54,8 +54,7 @@
           >
             <v-btn
               class="ma-2"
-              outlined
-              color="yellow"
+              color="green"
               nuxt
               :to="elevation.link"
             >
@@ -87,7 +86,12 @@ export default {
       {
         title: 'Тріска для копчення',
         src: 'https://drive.google.com/uc?export=view&id=1VaLfVyfEymKFLugIx0lzcxpNqDUHJYMf',
-        link: '/video'
+        link: '/chip'
+      },
+      {
+        title: 'Вирубка фруктових дерев',
+        src: 'https://drive.google.com/uc?export=view&id=1Y42x6uaZjWBvMy8XhLSipZrYsoS09au3',
+        link: '/trees'
       }
     ],
     arrayCover: [

@@ -7,7 +7,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s',
-    title: 'NASK',
+    title: 'Олександр',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -51,12 +51,12 @@ export default {
       '@nuxtjs/firebase',
       {
         config: {
-          apiKey: 'AIzaSyBc7u10MhozydZgZBd7NxcE6eD30HryL_U',
-          authDomain: 'nusk-9e136.firebaseapp.com',
-          projectId: 'nusk-9e136',
-          storageBucket: 'nusk-9e136.appspot.com',
-          messagingSenderId: '364628197447',
-          appId: '1:364628197447:web:a945a1b2198600ec81f162'
+          apiKey: 'AIzaSyCbqbD8YMtX8uoJHsEgwKk4UvYwLPODYk4',
+          authDomain: 'oleksandr-3787c.firebaseapp.com',
+          projectId: 'oleksandr-3787c',
+          storageBucket: 'oleksandr-3787c.appspot.com',
+          messagingSenderId: '623016667362',
+          appId: '1:623016667362:web:26fb4984975eff32d456bb'
         },
         services: {
           database: true,

@@ -9,16 +9,14 @@
           height="200px"
           src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
         >
-          <v-card-title>Переробка дерев</v-card-title>
+          <v-card-title>Переробка фруктових дерев</v-card-title>
         </v-img>
 
-        <v-card-subtitle class="pb-0">
+        <v-card-subtitle class="pb-2">
           Допоможемо зрізати та вивести фруктові дерева
         </v-card-subtitle>
 
         <v-card-text class="text--primary">
-          <div>Ви економите на ...</div>
-
           <div>Це безкоштовно!</div>
         </v-card-text>
 
@@ -84,6 +82,7 @@
 
 <script>
 export default {
+  name: 'trees',
   data () {
     return {
       videoList: [

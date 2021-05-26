@@ -19,7 +19,20 @@
           justify="center"
         >
           <div class="display-3">
-            {{ slide }} Slide
+            {{ slide }}
+            <div
+              class="text-center ma-6"
+            >
+              <v-btn
+                rounded
+                outlined
+                color="white"
+                nuxt
+                to="/contacts"
+              >
+                Контакти
+              </v-btn>
+            </div>
           </div>
         </v-row>
       </v-sheet>
@@ -39,11 +52,9 @@ export default {
         'deep-purple accent-4'
       ],
       slides: [
-        'First',
-        'Second',
-        'Third',
-        'Fourth',
-        'Fifth'
+        'Вигідні тарифи',
+        'Відповідальність',
+        'Грамотна логістика'
       ]
     }
   }

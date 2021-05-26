@@ -59,10 +59,19 @@
               <v-list-item-title>(073) 485-04-26</v-list-item-title>
               <v-list-item-subtitle>Mobile</v-list-item-subtitle>
             </v-list-item-content>
+          </v-list-item>
 
+          <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-message-text</v-icon>
+              <v-icon color="indigo">
+                mdi-phone
+              </v-icon>
             </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title>(097) 766-12-51</v-list-item-title>
+              <v-list-item-subtitle>Mobile</v-list-item-subtitle>
+            </v-list-item-content>
           </v-list-item>
 
           <v-divider inset></v-divider>
