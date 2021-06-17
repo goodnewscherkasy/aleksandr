@@ -11,7 +11,7 @@
           "Бог не на боці великих батальйонів, а на стороні кращих стрільців."
         </v-card-text>
         <v-card-text class="headline font-weight-bold">
-          "Якість - це коли все робиш правильно, навіть якщо ніхто не дивиться."
+          "Якість - це коли все робиш правильно, навіть якщо ніхто не дивиться.."
         </v-card-text>
       </v-card>
     </template>
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'about'
+  name: 'About'
 }
 </script>
 
